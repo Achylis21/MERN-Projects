@@ -17,7 +17,6 @@ const Navbar = () => {
                 <li className="cursor-pointer">Create</li>
                 <li className="cursor-pointer">Read All</li>
                 <li className="cursor-pointer">Read Once</li>
-                <li className="cursor-pointer">Delete</li>
                 <div className="logout">
                     <li className="cursor-pointer">Logout</li>
                 </div>
