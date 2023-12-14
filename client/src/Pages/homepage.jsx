@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import DataDetails from '../Components/data_details'
 
 const Home = () => {
+    //Fetch all data to display
     const [datas, setDatas] = useState(null)
 
     useEffect(() => {
@@ -18,6 +19,7 @@ const Home = () => {
 
         fetchAllData()
     }, [])
+
     return(
         <div className="home">
             <div className="all-data flex justify-center mt-40">
@@ -37,6 +39,7 @@ const Home = () => {
                         ))}
                     </tbody>
                 </table>
+                
             </div>
         </div>
     )
